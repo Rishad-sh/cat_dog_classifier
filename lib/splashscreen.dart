@@ -11,18 +11,18 @@ class _MySplashState extends State<MySplash> {
   @override
   Widget build(BuildContext context) {
     return SplashScreen(
-      seconds:2,
+      seconds:5,
       navigateAfterSeconds: Home(),
       title:Text('Cat and Dog Classifier',
       style:TextStyle(
         fontWeight: FontWeight.bold, 
         fontSize: 25,
-        color:Color(0x00FFF))
+        color:Colors.yellow)
     ),
     image: Image.asset('assets/cat_dog_icon.png'),
     backgroundColor: Colors.blueAccent,
     photoSize:  60,
-    loaderColor: Color(0x004242),
+    loaderColor: Colors.redAccent,
 
     );
   }
